@@ -15,58 +15,58 @@ sqa_criteria:
     repos:
       github.com/openaire/iis git:
         commands:
-        - /usr/bin/env sh .sqa/script.pineapple_generous_axolotl.sh
-        container: qc.acc_fern_spirited_turtle
+        - /usr/bin/env sh .sqa/script.thunder_meticulous_crocodile.sh
+        container: qc.acc_gamboge_motivated_quail
   QC.Doc:
     repos:
       github.com/openaire/iis find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.claret_savvy_crane.sh
-        container: qc.doc_periwinkle_understanding_serval
+        - /usr/bin/env sh .sqa/script.pearl_worried_chinchilla.sh
+        container: qc.doc_raspberry_dizzy_walrus
       github.com/openaire/iis git:
         commands:
-        - /usr/bin/env sh .sqa/script.magenta_articulate_cheetah.sh
-        container: qc.doc_kiwi_nervous_catfish
+        - /usr/bin/env sh .sqa/script.smoke_audacious_gerbil.sh
+        container: qc.doc_harlequin_sarcastic_grasshopper
       github.com/openaire/iis markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.ivory_serene_skunk.sh
-        container: qc.doc_beige_supportive_boar
+        - /usr/bin/env sh .sqa/script.bone_ambitious_octopus.sh
+        container: qc.doc_wine_radiant_clownfish
   QC.Lic:
     repos:
       github.com/openaire/iis licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.ivory_mindful_beaver.sh
-        container: qc.lic_marina_artistic_shark
+        - /usr/bin/env sh .sqa/script.turmeric_upbeat_boa.sh
+        container: qc.lic_goldenrod_optimistic_shark
   QC.Sec:
     repos:
       github.com/openaire/iis bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.crimson_happy_porpoise.sh
-        container: qc.sec_cornflower_dizzy_salamander
+        - /usr/bin/env sh .sqa/script.pearl_confused_turkey.sh
+        container: qc.sec_cerulean_authentic_koala
   QC.Sty:
     repos:
       github.com/openaire/iis checkstyle:
         commands:
-        - /usr/bin/env sh .sqa/script.lagoon_skeptical_snail.sh
-        container: qc.sty_claret_timid_serval
+        - /usr/bin/env sh .sqa/script.salmon_easygoing_eel.sh
+        container: qc.sty_snow_adventurous_dugong
       github.com/openaire/iis flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.peach_articulate_alpaca.sh
-        container: qc.sty_powder_mindful_termite
+        - /usr/bin/env sh .sqa/script.jet_innocent_platypus.sh
+        container: qc.sty_carmine_quirky_piranha
       github.com/openaire/iis jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.cerise_attentive_iguana.sh
-        container: qc.sty_scarlet_peaceful_cormorant
+        - /usr/bin/env sh .sqa/script.lavender_eager_eel.sh
+        container: qc.sty_boysenberry_energetic_chimpanzee
   QC.Uni:
     repos:
       github.com/openaire/iis pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.currant_diligent_panda.sh
-        container: qc.uni_mango_bright_chinchilla
+        - /usr/bin/env sh .sqa/script.ceru_elated_coyote.sh
+        container: qc.uni_bone_timid_eel
   QC.Ver:
     repos:
       github.com/openaire/iis get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.taupe_brilliant_skunk.sh
-        container: qc.ver_burgundy_diplomatic_unicorn
+        - /usr/bin/env sh .sqa/script.champagne_upbeat_griffin.sh
+        container: qc.ver_marina_vigilant_eel
 timeout: 5400
